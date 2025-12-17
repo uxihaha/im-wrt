@@ -765,7 +765,7 @@ add_gecoosac() {
 
 update_adguardhome() {
     local adguardhome_dir="$BUILD_DIR/package/feeds/small8/luci-app-adguardhome"
-    local repo_url="https://github.com/ZqinKing/luci-app-adguardhome.git"
+    local repo_url="https://github.com/rufengsuixing/luci-app-adguardhome"
 
     echo "正在更新 luci-app-adguardhome..."
     rm -rf "$adguardhome_dir" 2>/dev/null
@@ -888,7 +888,7 @@ fix_rust_compile_error() {
 
 update_smartdns() {
     # smartdns 仓库地址
-    local SMARTDNS_REPO="https://github.com/ZqinKing/openwrt-smartdns.git"
+    local SMARTDNS_REPO="https://github.com/pymumu/openwrt-smartdns.git"
     local SMARTDNS_DIR="$BUILD_DIR/feeds/packages/net/smartdns"
     # luci-app-smartdns 仓库地址
     local LUCI_APP_SMARTDNS_REPO="https://github.com/pymumu/luci-app-smartdns.git"
@@ -1044,7 +1044,7 @@ remove_tweaked_packages() {
 }
 
 update_argon() {
-    local repo_url="https://github.com/ZqinKing/luci-theme-argon.git"
+    local repo_url="https://github.com/jerrykuku/luci-theme-argon.git"
     local dst_theme_path="$BUILD_DIR/feeds/luci/themes/luci-theme-argon"
     local tmp_dir
     tmp_dir=$(mktemp -d)
