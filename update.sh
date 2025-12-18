@@ -1142,11 +1142,11 @@ main() {
     add_quickfile
     update_lucky
     fix_rust_compile_error
-    update_smartdns
+    #update_smartdns
     update_diskman
     set_nginx_default_config
     update_uwsgi_limit_as
-    update_argon
+    #update_argon
     update_nginx_ubus_module # 更新 nginx-mod-ubus 模块
     check_default_settings
     install_opkg_distfeeds
@@ -1154,7 +1154,7 @@ main() {
     remove_attendedsysupgrade
     install_feeds
     fix_easytier_lua
-    update_adguardhome
+    #update_adguardhome
     update_script_priority
     update_geoip
     update_package "runc" "releases" "v1.2.6"
